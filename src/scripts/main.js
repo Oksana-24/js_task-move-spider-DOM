@@ -7,8 +7,8 @@ document.addEventListener('click', (e) => {
     return;
   }
 
-  const x = e.x;
-  const y = e.y;
+  const x = e.clientX;
+  const y = e.clientY;
 
   const leftBorder = wall.offsetLeft + wall.clientLeft;
   const topBorder = wall.offsetTop + wall.clientTop;
